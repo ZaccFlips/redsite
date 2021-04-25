@@ -92,6 +92,27 @@ body{
         margin: 0;
         padding: 14px;
     }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+    #trending{
+        top: 50px;
+        left: 0;
+        background: rgb(58, 56, 56, 0.5);
+    }
+    #mstore{
+        top: 100px;
+        left: 0;
+        background: rgb(58, 56, 56, 0.5);
+    }
+    #search{
+        bottom: 100px;
+        left: 0;
+    }
+    #button{
+        bottom: 50px;
+        left: 0;
+    }
     
     
 }
