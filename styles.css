@@ -134,5 +134,7 @@ body{
     margin: 5% 0;
 }
 .cont_1{
-    background-image: url(/m5cars/wp2728776-bmw-m-power-wallpapers.jpg);
+    background-image: url(/m5cars/m3_side.jpg);
+    background-size: cover;
+    height: 300px;
 }
