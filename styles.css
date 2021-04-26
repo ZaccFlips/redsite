@@ -3,7 +3,6 @@
 }
 body{
     margin: 0;
-    background: radial-gradient(#111, #141313);
     font-family: 'Hammersmith One', sans-serif;
 }
 .container{
@@ -11,26 +10,24 @@ body{
     top: 0;
 }
 .header{
-    background-image: linear-gradient(to right,rgb(17, 17, 17) 0%,rgb(17, 16, 16) 100%), url(/m5cars/grebim.jpg);
+    background-image: url(/m5cars/grebim.jpg);
     background-size: cover;
     background-position: center;
-    background-blend-mode: color-dodge;
+    background-color: thistle;
+    background-blend-mode: multiply;
     height: 300px;
-}
-.header img{
-    border: none;
 }
 .topnav{
     overflow: hidden;
-    background-color: rgba(214, 16, 16, 0.5);
+    background-color: rgb(58, 56, 56, 0.5);
 }
 .topnav a{
     float: left;
-    color: rgb(255, 255, 255);
+    color: cornsilk;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 20px;
 }
 .topnav .active{
     padding: 14px 20px;
@@ -51,7 +48,7 @@ body{
 }
 #mstore{
     position: absolute;
-    left: 250px;
+    left: 200px;
 }
 #button{
     position: absolute;
@@ -60,13 +57,6 @@ body{
 #search{
     position: absolute;
     right: 26px;
-}
-.fontnav{
-    position: absolute;
-    top: 50%;
-    color: whitesmoke;
-    font-size: 3em;
-    font-style: italic;
 }
 .topnav .search-container {
     float: right;
@@ -128,13 +118,33 @@ body{
     
 }
 
-/*...............................categories..................*/
-.categories{
-    color: whitesmoke;
-    margin: 5% 0;
+/*-----------------page contents----------*/
+
+.contents{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
 }
-.cont_1{
-    background-image: url(/m5cars/m3_side.jpg);
+.cont1{
+    flex-basis: 50%;
+    background-image: url(/m5cars/wp2728776-bmw-m-power-wallpapers.jpg);
     background-size: cover;
-    height: 300px;
+    background-position: center;
+    width: 45%;
+    height: 200px;
+    margin: 5px;
+   
 }
+.cont2{
+    flex-basis: 50%;
+    background-image: url(/m5cars/wp2728776-bmw-m-power-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    height: 200px;
+    margin: 5px;
+
+}
+
+
