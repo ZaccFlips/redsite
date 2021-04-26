@@ -3,30 +3,34 @@
 }
 body{
     margin: 0;
+    background: radial-gradient(#111, #141313);
+    font-family: 'Hammersmith One', sans-serif;
 }
 .container{
     position: relative;
     top: 0;
 }
 .header{
-    background-image: url(/m5cars/grebim.jpg);
+    background-image: linear-gradient(to right,rgb(17, 17, 17) 0%,rgb(17, 16, 16) 100%), url(/m5cars/grebim.jpg);
     background-size: cover;
     background-position: center;
-    background-color: thistle;
-    background-blend-mode: multiply;
+    background-blend-mode: color-dodge;
     height: 300px;
+}
+.header img{
+    border: none;
 }
 .topnav{
     overflow: hidden;
-    background-color: rgb(58, 56, 56, 0.5);
+    background-color: rgba(214, 16, 16, 0.5);
 }
 .topnav a{
     float: left;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 .topnav .active{
     padding: 14px 20px;
@@ -47,7 +51,7 @@ body{
 }
 #mstore{
     position: absolute;
-    left: 200px;
+    left: 250px;
 }
 #button{
     position: absolute;
@@ -56,6 +60,13 @@ body{
 #search{
     position: absolute;
     right: 26px;
+}
+.fontnav{
+    position: absolute;
+    top: 50%;
+    color: whitesmoke;
+    font-size: 3em;
+    font-style: italic;
 }
 .topnav .search-container {
     float: right;
@@ -117,4 +128,11 @@ body{
     
 }
 
-
+/*...............................categories..................*/
+.categories{
+    color: whitesmoke;
+    margin: 5% 0;
+}
+.cont_1{
+    background-image: url(/m5cars/wp2728776-bmw-m-power-wallpapers.jpg);
+}
